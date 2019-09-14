@@ -13,7 +13,8 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <strong>La hora del servidor es <%=new Date()%></strong>
+        <strong>La hora del servidor es <%=new Date()%></strong>  
+        <a href="conexion">Mostrando fechas con dispatcher</a>
         <%
             String nombre=request.getParameter("nombre");
             if(nombre==null){
